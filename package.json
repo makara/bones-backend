@@ -1,0 +1,23 @@
+{
+  "author": "Makara Wang <makara@wiredcraft.com> (https://github.com/makara)",
+  "name": "bones-backend",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [
+    "bones",
+    "backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/makara/bones-backend.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bones-test": "~0.0.4",
+    "mocha": "1.x",
+    "should": "1.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/*.mocha.js"
+  }
+}
