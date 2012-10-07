@@ -18,6 +18,8 @@ Bones.plugin.load = Bones._(Bones.plugin.load).wrap(function(parent, dir) {
     self.require(dir, 'backends');
     return self;
 });
+// .
+Bones.backends = {};
 
 // Load me.
 Bones.load(__dirname);
